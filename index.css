@@ -106,79 +106,24 @@ body{
         margin-top: 300px;
 
     }
-    #face{
-        height: 100px;
-        width: 140px;
-        background-color: black;
-        border-radius: 42%;
-        display: inline-block;
-        margin-left:500px; 
-        
-    }
-    #hair{
-        height: 50px;
-        width: 140px;
-        background-color: black;
-        border-radius: 42%;
-        position: relative;
-        margin-left:500px; 
-        margin-top: 100px;
-        rotate: 180deg; 
-    }
-    #stomach{
-        height: 100px;
-        width: 140px;
-        background-color: black;
-        border-radius: 10%;
-        display: inline-block;
-        margin-left:00px;
-        position: static; 
-        
+   #farse{
+    background-color: rgb(69,69,69);
+    width: 100%;
+    height:120px;
+    margin-top:400px;
+    transform: rotateX(180deg);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+  #farseline{
     
-    }
-    #mainstomach{
-        display: flex;
-        margin-left: 450px;
-    }
-    #hand{
-        height: 183px;
-        width: 40px;
-        background-color: black;
-        border-radius: 10%;
-        display: inline-block; 
+        height: 10px;
+        width: 99%;
+        background-color:white;
+        display: inline-block;
+        margin-left:10px; 
         position: relative;
-        margin-left:10px ;
-        margin-top: 10px;
-        rotate: 204deg; 
+        margin-top: -56px; 
+        z-index:15;
     }
-    #hand1{
-        height: 200px;
-        width: 40px;
-        background-color:black;
-        border-radius: 10%;
-        margin-top: -6px;
-        position: relative;
-        margin-left:0px ;
-        rotate: 150deg; 
-    }
-    #legs{
-        display:flex;
-    }
-    #leg1{
-        height: 200px;
-        width: 40px;
-        background-color:black;
-        border-radius: 10%;
-        margin-top: 90px;
-        position: relative;
-        margin-left:-100px ;
-        
-     
-       
-        
-    }
-    #body{
-        margin-top: -420px;
-        height: 100px;
-    }
+   
     
