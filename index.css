@@ -1,5 +1,7 @@
 body{
     background-color: lightblue;
+  margin: 0px;
+  
     }
     #sun{
         border-radius: 80%;
@@ -58,3 +60,125 @@ body{
         z-index:15;
 
     }
+    #cloud{
+        width: 200px;
+        height:100px;
+        background-color: whitesmoke;
+        box-shadow:  rgb(165, 129, 129) 0px 20px 30px -10px;
+        margin-top: 35px;
+        border-radius: 50%;
+    }
+    #cloudsun{
+        display: flex;
+    }
+    #cloud1{
+        width: 100px;
+        height:100px;
+        background-color: whitesmoke;
+        box-shadow:  rgb(241, 238, 238) 0px 20px 30px -10px;
+        margin-top: 35px;
+        border-radius: 50%;
+        margin-left: 149px;
+    }
+    #cloud2{
+        width: 200px;
+        height:100px;
+        background-color: whitesmoke;
+       margin-top: -60px;
+        border-radius: 50%;
+        margin-left: -149px;
+    }
+    #cloud4{
+        width: 200px;
+        height:100px;
+        background-color: whitesmoke;
+        
+       margin-top: -220px;
+        border-radius: 50%;
+        margin-left: 600px;
+      
+
+    }
+    #tree{
+        width:40px;
+        height: 210px;
+        background-color: black;
+        margin-top: 300px;
+
+    }
+    #face{
+        height: 100px;
+        width: 140px;
+        background-color: black;
+        border-radius: 42%;
+        display: inline-block;
+        margin-left:500px; 
+        
+    }
+    #hair{
+        height: 50px;
+        width: 140px;
+        background-color: black;
+        border-radius: 42%;
+        position: relative;
+        margin-left:500px; 
+        margin-top: 100px;
+        rotate: 180deg; 
+    }
+    #stomach{
+        height: 100px;
+        width: 140px;
+        background-color: black;
+        border-radius: 10%;
+        display: inline-block;
+        margin-left:00px;
+        position: static; 
+        
+    
+    }
+    #mainstomach{
+        display: flex;
+        margin-left: 450px;
+    }
+    #hand{
+        height: 183px;
+        width: 40px;
+        background-color: black;
+        border-radius: 10%;
+        display: inline-block; 
+        position: relative;
+        margin-left:10px ;
+        margin-top: 10px;
+        rotate: 204deg; 
+    }
+    #hand1{
+        height: 200px;
+        width: 40px;
+        background-color:black;
+        border-radius: 10%;
+        margin-top: -6px;
+        position: relative;
+        margin-left:0px ;
+        rotate: 150deg; 
+    }
+    #legs{
+        display:flex;
+    }
+    #leg1{
+        height: 200px;
+        width: 40px;
+        background-color:black;
+        border-radius: 10%;
+        margin-top: 90px;
+        position: relative;
+        margin-left:-100px ;
+        
+     
+       
+        
+    }
+    #body{
+        margin-top: -420px;
+        height: 100px;
+    }
+    
